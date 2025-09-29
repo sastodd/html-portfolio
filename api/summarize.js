@@ -1,7 +1,7 @@
 // api/summarize.js
 // Summarize all transactions for a month. IDs are hard-coded.
 // Query: ?month=YYYY-MM[&timeZone=America/Los_Angeles]
-// Optional header: x-api-key: <your secret> (if X_API_KEY is set in Vercel)
+// Optional header: my-super-secret-key-valle
 
 const HARD_BASE = "apphe47UUcVkLGMRM";
 const HARD_TXN_TABLE = "tbluB7cd68Oc843rn";
