@@ -1,7 +1,7 @@
 // api/budgets.js
 // Create budget rows. IDs are hard-coded.
 // POST body: { "rows": [ { "Month":"2025-10", "CategoryName":"Travel", "Planned":800, "Notes":"..." }, ... ] }
-// Optional header: x-api-key: <your secret> (if X_API_KEY is set in Vercel)
+// Optional header: x-api-key: my-super-secret-key-valle
 
 const HARD_BASE = "apphe47UUcVkLGMRM";
 const HARD_BUDGETS = "tbldAjq4mmRMKT0gj";
