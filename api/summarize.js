@@ -1,3 +1,8 @@
+const HARD_BASE = "apphe47UUcVkLGMRM";
+const HARD_TXN_TABLE = "tbluB7cd68Oc843rn";
+
+const { baseId = HARD_BASE, tableId = HARD_TXN_TABLE, month, timeZone = "America/Los_Angeles" } = req.query;
+
 export default async function handler(req, res) {
   const { baseId, tableId, month, timeZone = "America/Los_Angeles" } = req.query;
 
